@@ -3,21 +3,11 @@
     <head>
         <meta charset="utf-8">
         <title>Timer Online</title>
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-        <script src="assets/js/app.js"></script>
+        <script src="dist/js/bundle.js"></script>
     </head>
     <body>
         <div id="app">
-            <h1>{{title}}</h1>
-            <div class="timer-display">
-                <p>
-                    <input v-model="hours" class="hours" type="number" value="00">:
-                    <input v-model="minutes" class="minutes" type="number" value="00">:
-                    <input v-model="seconds" class="seconds" type="number" value="00">
-                </p>
-            </div>
-            <button v-on:click="countDown" type="button" name="button">Começar</button>
-            <button v-on:click="reset" type="button" name="button">Reset</button>
+            <timer></timer>
         </div>
     </body>
 </html>
