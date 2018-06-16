@@ -1,0 +1,15 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "A simple timer app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maike Negreiros",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "webpack": "^4.12.0"
+  }
+}
