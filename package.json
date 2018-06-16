@@ -4,12 +4,18 @@
   "description": "A simple timer app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch"
   },
   "author": "Maike Negreiros",
   "license": "MIT",
   "dependencies": {
     "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
     "webpack": "^4.12.0"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.5.16",
+    "webpack-cli": "^3.0.8"
   }
 }
