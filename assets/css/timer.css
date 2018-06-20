@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+
+.timer-display {
+    box-shadow: 0px 0px 36px 0px black;
+    border-radius: 50%;
+}
+
+input {
+    padding: 0;
+    width: 68px;
+    font-size: 1em;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    margin: 0;
+    display: inline-flex;
+    outline: none;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: #16ff6c
+}
+
+button {
+    flex-grow: 1;
+    padding: 25px;
+    border: none;
+    outline: none;
+    background-color: #FFD200;
+    color: #3E3E64;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+button:hover {
+    background-color:  #cea900;
+}
+
+.actionbuttons {
+    position:  fixed;
+    bottom: 0;
+    left:  0;
+    right:  0;
+    display:  flex;
+    justify-content: space-around;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#app {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    /* background-color: #3E3E64; */
+    background-color: #7272af;
+    border: 8px solid #FFD200;
+    color: white;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    box-shadow: 0px 0px 5px 0px black inset;
+}
