@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin:  0;
+    /* background-color: #4F4F62; */
+    background-color: #9191c1;
+}
