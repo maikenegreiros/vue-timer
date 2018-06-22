@@ -1,8 +1,8 @@
 <template>
-    <div id="app">
+    <div id="timer-container">
         <div class="timer-display">
             <p>
-                <input @click="select($event.target)" @keyup.enter="countDown" @keydown="onlyNumbers($event)" v-model="minutes" class="timer-inputs minutes" type="text" maxlength="2" autofocus>:
+                <input @click="select($event.target)" @keyup.enter="countDown" @keydown="onlyNumbers($event)" v-model="minutes" class="timer-inputs minutes" type="text" maxlength="2">:
                 <input @click="select($event.target)" @keyup.enter="countDown" @keydown="onlyNumbers($event)" v-model="seconds" class="timer-inputs seconds" type="text" maxlength="2">
             </p>
         </div>
