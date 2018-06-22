@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --watch"
+    "webpack": "webpack --watch",
+    "start": "index.html"
   },
   "author": "Maike Negreiros",
   "license": "MIT",
@@ -14,6 +15,7 @@
     "babel-loader": "^7.1.4",
     "css-loader": "^0.28.11",
     "sass-loader": "^7.0.3",
+    "svg-loader": "0.0.2",
     "vue": "^2.5.16",
     "vue-loader": "^15.2.4",
     "vue-style-loader": "^4.1.0",
